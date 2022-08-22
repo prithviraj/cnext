@@ -1,13 +1,10 @@
 import Link from "next/link"
+import Top from "../components/top";
 
 const Index = () => {
 
     return (
-        <div>
-            <h1>Homepage</h1>
-            <br/>
-            <Link href="/blog">Blog</Link>
-        </div>
+        <Top/>
     )
 }
 

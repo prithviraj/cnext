@@ -1,5 +1,6 @@
 import Posts from "../../posts.json"
 import Link from "next/link"
+import Top from "../../components/top"
 
 const Blog = () => {
 
@@ -17,13 +18,7 @@ const Blog = () => {
 
     return (
         <div>
-            <style jsx>{`
-                h1 {
-            font-size: 3rem;
-            color: blue;
-                }
-                `}</style>
-            <h1>Blog</h1>
+           <Top/>
             <br/>
             <ul>
             <PostLinks/>

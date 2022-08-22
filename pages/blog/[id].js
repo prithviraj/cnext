@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Posts from "../../posts.json";
+import Top from "../../components/top";
 
 const Blog = () => {
 
@@ -16,7 +17,7 @@ const Blog = () => {
 
     return (
         <div>
-            <h1>Blog</h1>
+            <Top/>
             <br/>
           
             <h3>{Post.title}</h3>

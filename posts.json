@@ -1,0 +1,12 @@
+{
+    "hello" : {
+       
+        "title" : "Hello",
+        "body"  : "This is cool"
+    },
+    "secondpost" : {
+        
+        "title" : "Second Post",
+        "body"  : "This is also cool"
+    }
+}
